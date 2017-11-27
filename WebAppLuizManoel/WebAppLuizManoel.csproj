@@ -502,6 +502,11 @@
     <Content Include="Views\Musica\Details.cshtml" />
     <Content Include="Views\Musica\Edit.cshtml" />
     <Content Include="Views\Musica\Index.cshtml" />
+    <Content Include="Views\Musicas\Create.cshtml" />
+    <Content Include="Views\Musicas\Delete.cshtml" />
+    <Content Include="Views\Musicas\Details.cshtml" />
+    <Content Include="Views\Musicas\Edit.cshtml" />
+    <Content Include="Views\Musicas\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
