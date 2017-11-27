@@ -29,5 +29,7 @@ namespace WebAppLuizManoel.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<WebAppLuizManoel.Models.Musica> Musicas { get; set; }
     }
 }
