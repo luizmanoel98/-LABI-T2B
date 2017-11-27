@@ -1,13 +1,13 @@
 ﻿@model IEnumerable<WebAppLuizManoel.Models.Musica>
 
 @{
-    ViewBag.Title = "Titulo da musica.";
+    ViewBag.Title = "Titulo da música.";
 }
 
 <h2>Index</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @Html.ActionLink("Nova Música", "Create")
 </p>
 <table class="table">
     <thead>
@@ -45,9 +45,9 @@
                 @Html.DisplayFor(modelItem => item.DataCadastro)
             </td>
             <td>
-                @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
-                @Html.ActionLink("Details", "Details", new { id = item.Id }) |
-                @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                @Html.ActionLink("Editar", "Edit", new { id = item.Id }) |
+                @Html.ActionLink("Detalhe", "Details", new { id = item.Id }) |
+                @Html.ActionLink("Deletar", "Delete", new { id = item.Id })
             </td>
         </tr>
     </tbody>
