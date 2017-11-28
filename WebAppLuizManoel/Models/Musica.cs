@@ -14,7 +14,9 @@ namespace WebAppLuizManoel.Models
         [MaxLength(400 , ErrorMessage = "Máximo 400 caracteres!" )]
         public string Titulo { get; set; }
         public Categoria Categoria { get; set; }
+        [Display(Name = "Tipo de Mídia")]
         public TipoMidia TipoMidia { get; set; }
+        [Display(Name = "Data de Cadastro")]
         public DateTime DataCadastro { get; set; }
  
     }
